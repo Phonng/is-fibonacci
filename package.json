@@ -1,0 +1,14 @@
+{
+  "name": "isFibonacci",
+  "version": "1.0.0",
+  "description": "Return true if the given number is fibonacci",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"files": [
+    "index.js"
+  ],
+  "author": "",
+  "license": "ISC"
+}
