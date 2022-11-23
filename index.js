@@ -1,10 +1,15 @@
 "use strict";
 
+function isSquare(x) {
+  let square = parseInt(Math.sqrt(x));
+  return square * square == x;
+}
+
 function isNumber(value) {
-	if (typeof value === 'number') {
+  if (typeof value === "number") {
     return value - value === 0;
   }
-  if (typeof value === 'string' && value.trim() !== '') {
+  if (typeof value === "string" && value.trim() !== "") {
     return Number.isFinite ? Number.isFinite(+value) : isFinite(+value);
   }
   return false;
@@ -27,4 +32,4 @@ module.exports = function isOdd(value) {
   {
     return false;
   }
-};
+}
