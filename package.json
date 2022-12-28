@@ -13,6 +13,9 @@
   "files": [
     "index.js"
   ],
-  "author": "",
+  "author": "phonng",
+  "publishConfig": {
+   "@phonng:registry=https://npm.pkg.github.com"
+  },
   "license": "ISC"
 }
