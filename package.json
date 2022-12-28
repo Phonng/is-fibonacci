@@ -8,11 +8,12 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "files": [
     "index.js"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/Phonng/is-fibonacci#readme"
 }

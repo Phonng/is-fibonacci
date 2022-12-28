@@ -1,5 +1,10 @@
 "use strict";
 
+function isSquare(x) {
+  let square = parseInt(Math.sqrt(x));
+  return square * square == x;
+}
+
 function isNumber(value) {
   if (typeof value === "number") {
     return value - value === 0;
@@ -27,4 +32,4 @@ module.exports = function isFibonacci(value) {
   {
     return false;
   }
-};
+}
