@@ -1,12 +1,16 @@
 {
-  "name": "isFibonacci",
+  "name": "@phonng/is-fibonacci",
   "version": "1.0.0",
   "description": "Return true if the given number is fibonacci",
+  "repository": "Phonng/is-fibonacci",
+  "bugs": {
+    "url": "https://github.com/Phonng/is-fibonacci/issues"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-	"files": [
+  "files": [
     "index.js"
   ],
   "author": "",

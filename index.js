@@ -1,16 +1,16 @@
 "use strict";
 
 function isNumber(value) {
-	if (typeof value === 'number') {
+  if (typeof value === "number") {
     return value - value === 0;
   }
-  if (typeof value === 'string' && value.trim() !== '') {
+  if (typeof value === "string" && value.trim() !== "") {
     return Number.isFinite ? Number.isFinite(+value) : isFinite(+value);
   }
   return false;
 }
 
-module.exports = function isOdd(value) {
+module.exports = function isFibonacci(value) {
   const n = Math.abs(value);
   if (!isNumber(n)) {
     throw new TypeError("expected a number");
