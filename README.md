@@ -7,4 +7,4 @@ Return true if the given number is fibonacci
 ## publish
 
 - If you want to publish. Run npm add user -> npm publish
-- If you want to publish with your company name. Run npm add user -> npm publish --access public
+- If you want to publish with your company name and still want to public it. Run npm add user -> npm publish --access public
