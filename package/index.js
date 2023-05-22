@@ -32,4 +32,4 @@ module.exports = function isFibonacci(value) {
   {
     return false;
   }
-}
+};

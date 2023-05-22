@@ -1,5 +1,5 @@
 {
-  "name": "@phonng/is-fibonacci",
+  "name": "@phonng/is-number-fibonacci",
   "version": "1.0.0",
   "description": "Return true if the given number is fibonacci",
   "repository": "Phonng/is-fibonacci",
